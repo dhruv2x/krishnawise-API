@@ -41,7 +41,7 @@ app.post('/krishnawise_api', async (req, res) => {
         { role: 'system', content: 'You are a user.' },
         { role: 'user', content: message },
       ],
-      max_tokens: 600,
+      max_tokens: 450,
     };
 
     const headers = {
